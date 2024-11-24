@@ -115,12 +115,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 library.add(faMoneyBill, faCreditCard, faBackspace, faFileAlt)
 
 //interfaces para tipado de datos
-interface Payment {
+export interface Payment {
   method: string
   amount: number
 }
 
-interface PaymentMethod {
+export interface PaymentMethod {
   name: string
   type: string
 }
